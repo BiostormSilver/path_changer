@@ -1,8 +1,9 @@
 #Import modules 
-import sys
+import pyperclip
 
-args = sys.argv
+path = pyperclip.paste()
 
-print(args)
+new_path = path.replace("\\","/")
 
+pyperclip.copy(new_path)
 
