@@ -1,5 +1,8 @@
-
+#Import modules 
 import sys
 
+args = sys.argv
 
-print("hi")
+print(args)
+
+
